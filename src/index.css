@@ -42,6 +42,10 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.headline-2 {
+  @apply text-3xl lg:text-4xl lg:leading-tight font-semibold;
+}
+
 .menu-btn {
   @apply w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 transition-[transform,background-color] active:scale-95;
 }
@@ -78,22 +82,18 @@ body {
   @apply text-[18px];
 }
 
-.btn:has( .material-icons) {
+.btn:has(.material-icons) {
   @apply pr-3;
 }
 
 .btn-primary {
-  @apply h-11 bg-sky-400 text-zinc-950 hover:bg-sky-300 active:bg-sky-400; 
+  @apply h-11 bg-sky-400 text-zinc-950 hover:bg-sky-300 active:bg-sky-400;
 }
 
 .btn-outline {
   @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800;
-<<<<<<< Updated upstream
-=======
 }
-
 
 .title-1 {
   @apply text-[22px] font-normal;
->>>>>>> Stashed changes
 }
